@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url("3_50.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.main {
+    background: url("Prize-01.png"), rgba(255, 255, 255, 0.884);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 1% 0;
+}
+.flex-box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#event-name {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 800;
+    margin-left: -5%;
+    margin-top: 5%;
+}
+.ins {
+    margin-top: -30px;
+}
+#instruction {
+    font-weight: 600;
+    text-align: center;
+    font-size: 20px;
+}
+.link-text {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.links {
+    font-size: 30px;
+    text-align: center;
+}
+.cat-link {
+    margin-bottom: 20px;
+}
+.jusc {
+    margin-top: 20px;
+    margin-bottom: -20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+#club-name {
+    margin-top: -20px;
+}
+.logo {
+    font-weight: 600;
+    font-size: 20px;
+}
+.txt-line {
+    font-size: 20px;
+    font-weight: 700;
+}
+#footer {
+    font-weight: 500;
+    margin-top: 20px;
+}
+#credits {
+    margin-top: 20px;
+    font-weight: 600;
+}
+#result-link {
+    color: red;
+    text-decoration: none;
+    margin: 20px 0px;
+    animation: blink 1s linear infinite;
+    font-weight: 700;
+}
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+                /*        instruction page               */
+
+.exam-instruction {
+    font-family: 'Baloo Da 2', cursive;
+    width: 70%;
+    margin: auto;
+    font-size: x-large;
+    background: rgba(255, 255, 255, 0.952);
+    border-radius: 15px;
+    padding: 5%;
+}
+#slogan {
+    font-size: x-large;
+}
+#event-title {
+    color: red;
+    font-weight: 700;
+    margin-top: 30px;
+}
+#page-title {
+    margin-top: 40px;
+    font-weight: 800;
+    text-decoration: underline;
+    margin-bottom: 40px;
+}
+#exam-needs {
+    text-align: left;
+}
+.headings {
+    font-size: x-large;
+    font-weight: 600;
+}
+.left-align {
+    text-align: left;
+    line-height: 6vh;
+}
+#list-1 {
+    list-style: none;
+}
+.description {
+    margin-top: 20px;
+}
+
+
+/*        instruction page ends              */
+
+
+/*        result page starts              */
+
+.result-info, .result-table {
+    font-family: 'Baloo Da 2', cursive;
+    width: 100%;
+    margin: 20px auto;
+    font-size: x-large;
+    background: rgba(255, 255, 255, 0.384);
+    border-radius: 15px;
+    padding: 5%;
+}
+.e-title {
+    color: red;
+    font-weight: 700;
+    margin-top: 30px;
+    text-align: center;
+}
+.tbody {
+    width: 100%;
+}
+tr, td {
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 1%;
+}
+
+/*        result page ends              */
+
+
+@media only screen and (max-width: 768px) {
+    .main {
+        padding-bottom: 2%;
+        padding-top: 5%;
+    }
+    #instruction {
+        font-size: small;
+    }
+    #event-name {
+        font-size: x-large;
+        margin-left: -16%;
+        margin-top: 9%;
+    }
+    .ins {
+        margin-top: 5%;
+    }
+    .link-text {
+        font-size: x-large;
+    }
+    .links {
+        font-size: medium;
+    }
+    .organizer {
+        margin-top: 10%;
+    }
+    .jusc {
+        font-size: small;
+        margin-bottom: -5px;
+    }
+    .logo {
+        font-size: small;
+    }
+    #club-logo {
+        width: 50px;
+    }
+    #club-name {
+        margin-top: -8px;
+    }
+    .flex-box-logo {
+        margin-top: 10%;
+    }
+    .txt-line {
+        font-size: small;
+    }
+    .logos {
+        width: 75px;
+    }
+    #footer {
+        font-size: xx-small;
+    }
+    #credits {
+        font-size: xx-small;
+    }
+
+    /*        instruction page                     */
+    .exam-instruction {
+        width: 100%;
+        margin-top: 20px;
+    }
+    #slogan, ul, .details {
+        font-size: medium;
+    }
+    #event-title {
+        font-size: larger;
+    }
+    #page-title {
+        font-size: x-large;
+    }
+    .left-align {
+        line-height: 4vh;
+    }
+    .headings {
+        font-size: large;
+    }
+    /*        instruction page  ends               */
+
+    /*        Result page                           */
+    .result-info {
+        margin-top: 30px;
+        padding: 1%;
+    }
+    table, .result-table {
+        font-size: small;
+    }
+    /*        Result page                           */
+
+}
+@media only screen and (min-width: 2500px) {
+    .left-align {
+        line-height: 2vh;
+    }
+}
