@@ -147,13 +147,13 @@ body {
 /*        result page starts              */
 
 .result-info, .result-table {
+    box-sizing: border-box;
     font-family: 'Baloo Da 2', cursive;
     width: 100%;
     margin: 20px auto;
     font-size: x-large;
     background: rgba(255, 255, 255, 0.384);
     border-radius: 15px;
-    padding: 5%;
 }
 .e-title {
     color: red;
@@ -165,7 +165,6 @@ body {
     width: 100%;
 }
 tr, td {
-    border: 1px solid black;
     text-align: center;
     padding-top: 1%;
 }
