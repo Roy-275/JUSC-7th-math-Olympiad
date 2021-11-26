@@ -87,6 +87,7 @@ body {
     margin: 20px 0px;
     animation: blink 1s linear infinite;
     font-weight: 700;
+    font-size: 1.5rem;
 }
 @keyframes blink {
     50% {
