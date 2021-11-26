@@ -81,7 +81,7 @@ body {
     margin-top: 20px;
     font-weight: 600;
 }
-#result-link {
+.result-link {
     color: red;
     text-decoration: none;
     margin: 20px 0px;
